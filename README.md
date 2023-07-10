@@ -26,6 +26,11 @@
  - Syntex Error
  - Runtime Error
  - Logical Error
+ ```
+   module.exports = path.dirname(process.mainModule.filename);
+     (or)
+   module.exports = path.dirname(require.main.filename);
+ ```
 
 
 
